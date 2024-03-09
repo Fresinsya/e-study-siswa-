@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landingPage</title>
+    <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<header>
+    <nav
+        class="flex items-center justify-center bg-gradient-to-t from-[#306FA4] to-[#215784] flex-wrap w-full p-6 h-24">
+        <p class="flex text-center text-white font-semibold text-xl">Media Pembelajaran Berbasis Website Interaktif Mata
+            Pelajaran
+            <br />Pemrograman Terstruktur
+        </p>
+        <div class="mt-14 flex items-center justify-center">
+            <ul class="flex gap-20">
+                <li class="mr-1">
+                    <a class="bg-white inline-block py-2 px-4 hover:text-[#215784] text-gray-400 font-semibold"
+                        href="/Materi.html">Materi</a>
+                </li>
+                <li class=" mr-1">
+                    <a class="bg-white inline-block  py-2 px-4 hover:text-[#215784] text-gray-400 font-semibold"
+                        href="GabungKelompok.html">Tugas</a>
+                </li>
+                <li class="mr-1">
+                    <a class="bg-white inline-block py-2 px-4 hover:text-[#215784] text-gray-400 font-semibold"
+                        href="/Kuis.html">Kuis</a>
+                </li>
+                <li class="mr-1">
+                    <a class="bg-white inline-block py-2 px-4 hover:text-[#215784] text-gray-400 font-semibold"
+                        href="/Referensi.html">Referensi</a>
+                </li>
+                <li class="mr-1">
+                    <a class="bg-white inline-block py-2 px-4 hover:text-[#215784] text-gray-400 font-semibold"
+                        href="/Tutorial.html">Tutorial</a>
+                </li>
+                <li class="mr-1">
+                    <a class="bg-white inline-block py-2 px-4 border-b-2 border-b-[#215784] text-[#215784] font-semibold"
+                        href="/Absen.html">Absen</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+<body>
+    <div class="mt-32 mx-28">
+        <div class="ml-3">
+            <form action="">
+                <div class="flex items-center gap-5 mt-6">
+                    <label for="nama" class=" font-semibold">Nama</label>
+                    <input name="nama" type="text" placeholder="okky" class="border w-96 p-2 ml-14">
+                </div>
+                <div class="flex items-center gap-5 mt-6">
+                    <label for="absen" class=" font-semibold">Nomor absen</label>
+                    <input name="absen" type="text" placeholder="20012" class="border w-96 p-2">
+                </div>
+            </form>
+        </div>
+        <div class="flex justify-center bg-[#E59B0C] w-full mt-10 mb-4 py-2 rounded-2xl">
+            <a href="TugasDipilih.html" class="flex items-center gap-4 text-white font-semibold">
+                Hadir
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
